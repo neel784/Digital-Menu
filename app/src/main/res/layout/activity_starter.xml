@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".starter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            tools:ignore="ScrollViewCount"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="-192dp">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:dividerPadding="100dp"
+                android:elevation="30dp"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:dividerPadding="10sp"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:scrollbars="vertical">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16sp"
+                        android:layout_marginTop="30sp"
+                        android:layout_marginBottom="10sp"
+                        android:gravity="center_horizontal"
+                        android:text="STARTER"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="50sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_marginRight="40sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="53dp"
+                        android:layout_marginRight="90sp"
+                        android:gravity="center"
+                        android:text="ITEM"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10sp"
+                        android:gravity="center"
+                        android:text="PRICE"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="150sp"
+                        android:text="Soup"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="50 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="80sp"
+                        android:text="Paneer Tikka"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="60 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="90sp"
+                        android:text="Paneer Chili"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="70 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="145sp"
+                        android:text="Pasta"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="65 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100sp"
+                        android:text="crispy corn"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="100 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100sp"
+                        android:text="Spring Roll"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="90 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="140sp"
+                        android:text="Tacos"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="50sp"
+                        android:text=" 200"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="83sp"
+                        android:text="RAJA Kebab"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="220 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="83sp"
+                        android:text="Shami kebab"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="210 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="6sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="80sp"
+                        android:text="Veg.sheek kebab"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="35sp"
+                        android:text="220 "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </TableRow>
+
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
